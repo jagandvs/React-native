@@ -20,9 +20,7 @@ const App = () => {
     <>
       <StatusBar backgroundColor={randomColor} />
       <View style={[styles.container, { backgroundColor: randomColor }]}>
-        <TouchableOpacity onPress={changeBackground}>
-          <Text style={styles.text}>Tap Me</Text>
-        </TouchableOpacity>
+        <TouchableOpacity onPress={changeBackground}></TouchableOpacity>
       </View>
     </>
   );
